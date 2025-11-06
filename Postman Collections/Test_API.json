@@ -77,5 +77,13 @@
 			},
 			"response": []
 		}
+	],
+	"variable": [
+		{
+			"id": "8576cba0-7bef-4342-b188-746d18fa8d83",
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
 	]
 }
