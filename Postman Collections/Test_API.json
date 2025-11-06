@@ -53,15 +53,19 @@
 					"script": {
 						"id": "95836558-89c1-445b-a159-a731e01e304d",
 						"exec": [
-							"pm.test(\"Successful POST request\", function () {",
-							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
-							"});",
 							"var jsonData = pm.response.json()",
 							"pm.environment.set(\"myID\",jsonData.bookingid)"
 						],
 						"type": "text/javascript",
 						"packages": {},
 						"requests": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"packages": {},
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -86,6 +90,7 @@
 	],
 	"variable": [
 		{
+			"id": "9a49afb2-d10e-497b-9ec8-6a1c8409ca19",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
