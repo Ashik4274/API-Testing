@@ -54,7 +54,8 @@
 						"id": "95836558-89c1-445b-a159-a731e01e304d",
 						"exec": [
 							"var jsonData = pm.response.json()",
-							"pm.environment.set(\"myID\",jsonData.bookingid)"
+							"pm.environment.set(\"MyID\",jsonData.bookingid)",
+							""
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -64,8 +65,13 @@
 				{
 					"listen": "prerequest",
 					"script": {
+						"id": "e81f45de-c064-41db-80ea-677810157513",
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
 						"packages": {},
-						"type": "text/javascript"
+						"requests": {}
 					}
 				}
 			],
@@ -90,6 +96,7 @@
 	],
 	"variable": [
 		{
+			"id": "5afdcc21-5470-46ee-9dbd-a1099d0b17cd",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
