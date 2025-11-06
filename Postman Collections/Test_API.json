@@ -56,7 +56,8 @@
 							"pm.test(\"Successful POST request\", function () {",
 							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
 							"});",
-							""
+							"var jsonData = pm.response.json()",
+							"pm.environment.set(\"myID\",jsonData.bookingid)"
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -85,6 +86,7 @@
 	],
 	"variable": [
 		{
+			"id": "a83f2292-5ae0-4fc8-bf62-b38f67e309e5",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
