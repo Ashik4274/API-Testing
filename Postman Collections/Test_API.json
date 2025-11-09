@@ -100,7 +100,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "PUT",
 				"header": [],
 				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "6475cad5-3f92-4f33-b1cd-bfd0b07c33f3",
+			"id": "e1bdd188-5011-4538-8365-90775838d8f0",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
