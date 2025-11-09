@@ -181,13 +181,24 @@
 			},
 			"request": {
 				"method": "PATCH",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"RAshik\",\r\n    \"lastname\": \"khan\",\r\n    \"totalprice\": 1130,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-01\",\r\n        \"checkout\": \"2017-01-01\"\r\n    },\r\n    \"additionalneeds\": \"Breakfast\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
 			"response": []
 		}
 	],
 	"variable": [
 		{
+			"id": "10bfd876-dd00-4acb-9f41-4552e0b68739",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
