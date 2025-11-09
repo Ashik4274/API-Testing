@@ -126,7 +126,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"password1234\"\n\n}"
+					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"password123\"\n\n}"
 				},
 				"url": "{{baseURL}}/auth"
 			},
@@ -147,7 +147,7 @@
 	],
 	"variable": [
 		{
-			"id": "531dcaf8-3298-4ed3-9305-8874218daa4c",
+			"id": "dedf3321-a191-4c1a-9611-617c8ea06b5d",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
