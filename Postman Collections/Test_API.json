@@ -202,15 +202,36 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token={{AccessToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"RAshik\",\r\n    \"lastname\": \"khan\",\r\n    \"totalprice\": 1130,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-01\",\r\n        \"checkout\": \"2017-01-01\"\r\n    },\r\n    \"additionalneeds\": \"Breakfast\"\r\n}"
+				},
+				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
 			"response": []
 		}
 	],
 	"variable": [
 		{
-			"id": "e5574c37-9f4a-4325-b752-1fc300ae2c8c",
+			"id": "3c8f016a-deca-476a-ac49-759514a0ae45",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
