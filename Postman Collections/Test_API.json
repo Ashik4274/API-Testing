@@ -149,6 +149,22 @@
 		},
 		{
 			"name": "Authentication",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "121ad8e0-2549-4447-aa27-637f2817ce65",
+						"exec": [
+							"var jsonData = pm.response.json()\r",
+							"pm.environment.set(\"AccessToken\",jsonData.token)\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "e142c204-a5e8-4263-8d94-943d27716f25",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -247,7 +263,7 @@
 	],
 	"variable": [
 		{
-			"id": "6ab9956b-3ddc-4279-b5ce-8f9f8a919278",
+			"id": "9413bee9-5182-4ff4-937a-80041fe5dee3",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
