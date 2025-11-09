@@ -196,7 +196,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "DeleteInfo",
 			"id": "5704a375-6085-4be7-a6ed-2aaf0b3540e7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -210,7 +210,7 @@
 	],
 	"variable": [
 		{
-			"id": "213e31b7-bb6f-4c22-8ca0-415a0c559133",
+			"id": "e5574c37-9f4a-4325-b752-1fc300ae2c8c",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
