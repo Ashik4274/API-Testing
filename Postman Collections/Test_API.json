@@ -81,7 +81,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\"firstname\": \"Ashik\",\n    \"lastname\":\"Zaman\",\n    \"totalprice\": 1130 ,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2017-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"}",
+					"raw": "{\n\"firstname\": \"Ashik\",\n    \"lastname\":\"khan\",\n    \"totalprice\": 1130 ,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2017-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -176,6 +176,7 @@
 	],
 	"variable": [
 		{
+			"id": "52934a8b-864b-4981-9314-b1d1f7aa967e",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
