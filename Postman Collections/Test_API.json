@@ -175,7 +175,7 @@
 						"username": "admin"
 					}
 				},
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -200,7 +200,7 @@
 	],
 	"variable": [
 		{
-			"id": "80d4d764-f7ad-4b6d-93f8-a90becf2049d",
+			"id": "8bbd9550-23d9-48f0-a24d-eedaed908cd9",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
