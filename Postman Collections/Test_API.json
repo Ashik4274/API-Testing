@@ -167,14 +167,14 @@
 					"mode": "raw",
 					"raw": "{\n\"firstname\": \"Ashik\",\n    \"lastname\":\"Zaman\",\n    \"totalprice\": 1130 ,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2017-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"}"
 				},
-				"url": "{{baseURL}}/auth"
+				"url": "{{baseURL}}/"
 			},
 			"response": []
 		}
 	],
 	"variable": [
 		{
-			"id": "6750d048-efe4-4bef-9f99-e442db8c4c2e",
+			"id": "a7cc47d8-df16-4c2e-88ce-2456c4152bec",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
