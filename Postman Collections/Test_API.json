@@ -155,8 +155,6 @@
 					"script": {
 						"id": "0c451de9-a9f9-449e-9587-c24566f2581e",
 						"exec": [
-							"var jsonData = pm.response.json()\r",
-							"pm.environment.set(\"AccessToken\",jsonData.token)\r",
 							""
 						],
 						"type": "text/javascript",
@@ -202,7 +200,7 @@
 	],
 	"variable": [
 		{
-			"id": "1b2f6b19-7b70-4dbe-8675-cdbf52aab9bf",
+			"id": "e7562cbb-1e47-4f22-aaaa-c3f5bfb108f7",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
