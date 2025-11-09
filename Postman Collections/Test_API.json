@@ -172,10 +172,23 @@
 				"url": "{{baseURL}}/auth"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "b3355921-5ec4-4d38-9761-f8c8f2e6a07c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"variable": [
 		{
+			"id": "3dc2807c-5322-444b-bbd1-cefae6b892eb",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
