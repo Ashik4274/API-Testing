@@ -161,7 +161,7 @@
 						"password": "password"
 					}
 				},
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -174,7 +174,7 @@
 	],
 	"variable": [
 		{
-			"id": "a7cc47d8-df16-4c2e-88ce-2456c4152bec",
+			"id": "f17ee06a-9327-43c0-84e8-936a6b2a9777",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
