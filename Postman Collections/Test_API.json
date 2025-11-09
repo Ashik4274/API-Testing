@@ -155,17 +155,13 @@
 			},
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": {
-						"password": "password123",
-						"username": "postman"
-					}
+					"type": "noauth"
 				},
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\"firstname\": \"Ashik\",\n    \"lastname\":\"Zaman\",\n    \"totalprice\": 1130 ,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2017-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"}"
+					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
 				},
 				"url": "{{baseURL}}/auth"
 			},
@@ -174,6 +170,7 @@
 	],
 	"variable": [
 		{
+			"id": "f56cb567-2328-4683-80fc-aefdfbf6c7bd",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
