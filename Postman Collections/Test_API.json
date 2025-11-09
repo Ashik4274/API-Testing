@@ -154,15 +154,27 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "postman",
+						"password": "password"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"firstname\": \"Ashik\",\n    \"lastname\":\"Zaman\",\n    \"totalprice\": 1130 ,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2017-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"}"
+				},
+				"url": "{{baseURL}}/auth"
 			},
 			"response": []
 		}
 	],
 	"variable": [
 		{
-			"id": "ca4c877d-4b1c-43ee-ae27-cea5c23cef2f",
+			"id": "6750d048-efe4-4bef-9f99-e442db8c4c2e",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
