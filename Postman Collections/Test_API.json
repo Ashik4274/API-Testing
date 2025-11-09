@@ -194,10 +194,23 @@
 				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "5704a375-6085-4be7-a6ed-2aaf0b3540e7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"variable": [
 		{
+			"id": "213e31b7-bb6f-4c22-8ca0-415a0c559133",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
