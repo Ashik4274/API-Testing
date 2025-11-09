@@ -174,7 +174,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "PartialInfoUpdate",
 			"id": "b3355921-5ec4-4d38-9761-f8c8f2e6a07c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -188,7 +188,7 @@
 	],
 	"variable": [
 		{
-			"id": "3dc2807c-5322-444b-bbd1-cefae6b892eb",
+			"id": "30ba323d-0c69-491a-a7fe-02fd9015eb29",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
