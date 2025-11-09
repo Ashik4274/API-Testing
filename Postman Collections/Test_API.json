@@ -170,11 +170,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "password123",
+						"username": "admin"
+					}
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    'username':\"admin\",\n    'password':\"password123\"\n\n}"
+					"raw": "{\n    \"username\":\"admin\",\n    \"password\":\"password123\"\n}"
 				},
 				"url": "{{baseURL}}/auth"
 			},
@@ -195,6 +202,7 @@
 	],
 	"variable": [
 		{
+			"id": "add746b6-a8c9-47b1-951f-7a4862b01d50",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
