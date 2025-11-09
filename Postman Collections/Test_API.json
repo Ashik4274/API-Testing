@@ -148,44 +148,6 @@
 			"response": []
 		},
 		{
-			"name": "Authentication",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "0c451de9-a9f9-449e-9587-c24566f2581e",
-						"exec": [
-							""
-						],
-						"type": "text/javascript",
-						"packages": {},
-						"requests": {}
-					}
-				}
-			],
-			"id": "d784ff1c-064d-4ea4-a027-5eeb1975c74d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": {
-						"password": "password",
-						"username": "admin"
-					}
-				},
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
-				"url": "{{baseURL}}/auth"
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "e142c204-a5e8-4263-8d94-943d27716f25",
 			"protocolProfileBehavior": {
@@ -200,7 +162,7 @@
 	],
 	"variable": [
 		{
-			"id": "07f05f94-2c4f-4663-9328-3d6f39ff11e1",
+			"id": "784e56f4-d5be-49c3-be54-9c7145379d7c",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
