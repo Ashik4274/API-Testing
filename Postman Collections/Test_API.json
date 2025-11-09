@@ -158,7 +158,13 @@
 					"type": "noauth"
 				},
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
@@ -170,6 +176,7 @@
 	],
 	"variable": [
 		{
+			"id": "5dcabd97-b66c-41d8-8f80-0b7e2a1d156a",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
