@@ -180,7 +180,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "PATCH",
 				"header": []
 			},
 			"response": []
@@ -188,7 +188,7 @@
 	],
 	"variable": [
 		{
-			"id": "30ba323d-0c69-491a-a7fe-02fd9015eb29",
+			"id": "2d9fb892-a03d-4014-b33a-97bc08f4b6a3",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
