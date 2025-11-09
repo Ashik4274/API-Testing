@@ -148,7 +148,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Authentication",
 			"id": "e142c204-a5e8-4263-8d94-943d27716f25",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -162,7 +162,7 @@
 	],
 	"variable": [
 		{
-			"id": "784e56f4-d5be-49c3-be54-9c7145379d7c",
+			"id": "ca4c877d-4b1c-43ee-ae27-cea5c23cef2f",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
