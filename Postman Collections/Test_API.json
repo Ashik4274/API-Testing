@@ -92,10 +92,23 @@
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "0fd45ee9-7eeb-4c38-84ad-1cadd9631ec0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"variable": [
 		{
+			"id": "12d3517b-ea0f-4e8e-a8c1-85f7c54b1c77",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
