@@ -117,7 +117,23 @@
 			},
 			"request": {
 				"method": "PUT",
-				"header": [],
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token={{AccessToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "\"bookingid\": 1792,\r\n    \"booking\": {\r\n        \"firstname\": \"Ashik\",\r\n        \"lastname\": \"Khan\",\r\n        \"totalprice\": 1130,\r\n        \"depositpaid\": true,\r\n        \"bookingdates\": {\r\n            \"checkin\": \"2018-01-01\",\r\n            \"checkout\": \"2017-01-01\"\r\n        },\r\n        \"additionalneeds\": \"Breakfast\"\r\n    }\r\n}",
@@ -163,6 +179,7 @@
 	],
 	"variable": [
 		{
+			"id": "5167347e-7ad1-4ef0-909a-323cd772e20b",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
