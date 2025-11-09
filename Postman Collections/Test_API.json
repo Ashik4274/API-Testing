@@ -116,11 +116,23 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "e142c204-a5e8-4263-8d94-943d27716f25",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"variable": [
 		{
-			"id": "5b2f419e-b738-47ad-ae85-c35dce098463",
+			"id": "a4528b85-ffec-40c6-82a3-f9e7210e6b51",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
