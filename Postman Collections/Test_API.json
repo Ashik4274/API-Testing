@@ -94,7 +94,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "UpdateInfo",
 			"id": "0fd45ee9-7eeb-4c38-84ad-1cadd9631ec0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "7f317b0d-da26-4d44-9f23-1554b3a83bda",
+			"id": "6475cad5-3f92-4f33-b1cd-bfd0b07c33f3",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
