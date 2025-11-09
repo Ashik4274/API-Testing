@@ -102,6 +102,15 @@
 			"request": {
 				"method": "PUT",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"bookingid\": 1792,\r\n    \"booking\": {\r\n        \"firstname\": \"Ashik\",\r\n        \"lastname\": \"Khan\",\r\n        \"totalprice\": 1130,\r\n        \"depositpaid\": true,\r\n        \"bookingdates\": {\r\n            \"checkin\": \"2018-01-01\",\r\n            \"checkout\": \"2017-01-01\"\r\n        },\r\n        \"additionalneeds\": \"Breakfast\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
 			"response": []
@@ -133,7 +142,7 @@
 	],
 	"variable": [
 		{
-			"id": "e1bdd188-5011-4538-8365-90775838d8f0",
+			"id": "18f625a0-eda9-4ac2-9973-476e82a96263",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
