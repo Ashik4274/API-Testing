@@ -95,6 +95,22 @@
 		},
 		{
 			"name": "UpdateInfo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b8e42849-a86c-45ec-a7b6-0996a3588250",
+						"exec": [
+							"var jsonData = pm.response.json()\r",
+							"pm.environment.set(\"AccessToken\",jsonData.token)\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
 			"id": "0fd45ee9-7eeb-4c38-84ad-1cadd9631ec0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -147,6 +163,7 @@
 	],
 	"variable": [
 		{
+			"id": "b2c5caac-1652-49bc-baa1-689bbe263dce",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
