@@ -101,7 +101,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "{{baseURL}}/booking/{{MyID}}"
 			},
 			"response": []
 		},
@@ -132,6 +133,7 @@
 	],
 	"variable": [
 		{
+			"id": "7f317b0d-da26-4d44-9f23-1554b3a83bda",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
