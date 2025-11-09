@@ -231,6 +231,7 @@
 	],
 	"variable": [
 		{
+			"id": "ff1d6628-e2dd-4781-ac77-e06565c88eb2",
 			"key": "baseURL",
 			"value": "",
 			"type": "default"
